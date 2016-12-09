@@ -16,6 +16,25 @@ to be aware of low-level details such as device files."
 - Sequencer interface
 - Mixer interface
 
+```bash
+$ lspci | grep -i audio
+00:1f.3 Audio device: Intel Corporation Sunrise Point-LP HD Audio (rev 21)
+```
+
+```bash
+$ cat /proc/asound/devices 
+1:        : sequencer
+4: [ 0]   : control
+5: [ 0- 0]: digital audio playback
+6: [ 0- 0]: digital audio capture
+7: [ 0- 3]: digital audio playback
+8: [ 0- 7]: digital audio playback
+9: [ 0- 8]: digital audio playback
+10: [ 0- 0]: hardware dependent
+11: [ 0- 2]: hardware dependent
+33:        : timer
+```
+
 ## References
 - http://www.alsa-project.org/main/index.php/Main_Page
 - http://www.linuxdevcenter.com/pub/a/linux/2001/05/17/drivers_3-devel.html
