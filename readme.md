@@ -40,3 +40,4 @@ $ cat /proc/asound/devices
 - http://www.linuxdevcenter.com/pub/a/linux/2001/05/17/drivers_3-devel.html
 - http://www.linuxdevcenter.com/pub/a/linux/2001/05/17/drivers_4-future.html
 - http://www.linuxdevcenter.com/pub/a/linux/2000/11/17/low_latency.html
+- http://www.linuxjournal.com/article/6735?page=0,1
